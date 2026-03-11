@@ -1,4 +1,4 @@
-# MoodMelody - 150K Lyrics Classifier 🎶
+# MoodMelody - Lyrics Emotion Classifier 🎶
 
 **Large-scale NLP project for emotion/genre classification from song lyrics. Built with Python, scikit-learn, and Streamlit. [Demo app included!]**
 
