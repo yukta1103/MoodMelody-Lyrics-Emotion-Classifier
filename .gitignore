@@ -1,21 +1,30 @@
-venv/
-*.csv
-data/
-outputs/
-*.csv
-*.zip
+# Python
 *.pyc
 *.pyo
-.pyd
-.venv/
+*.pyd
+__pycache__/
+
+# Environments
 venv/
+.venv/
 env/
 .env
-outputs/
-data/raw_5m/
-data/.parquet
-.ipynb_checkpoints
+
+# Data
+data/
+*.csv
+*.zip
+*.parquet
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
 .DS_Store
+
+# IDE
 .vscode/
-*.safetensors
-stream
+
+# Project specific
+data/raw_5m/
+outputs/
